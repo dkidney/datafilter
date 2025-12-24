@@ -1,0 +1,22 @@
+#' @keywords internal
+"_PACKAGE"
+
+## usethis namespace: start
+#' @importFrom dplyr any_vars
+#' @importFrom dplyr filter
+#' @importFrom dplyr filter_all
+#' @importFrom dplyr n_distinct
+#' @importFrom dplyr one_of
+#' @importFrom dplyr pull
+#' @importFrom dplyr select
+#' @importFrom pillar type_sum
+#' @importFrom purrr map_chr
+#' @importFrom purrr map_dbl
+#' @importFrom purrr map_int
+#' @importFrom stats rnorm
+#' @importFrom stats var
+#' @importFrom tibble tibble
+## usethis namespace: end
+NULL
+
+utils::globalVariables('.data')
