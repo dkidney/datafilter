@@ -12,3 +12,6 @@ test_that("calc_n_mode3 works", {
   expect_equal(calc_n_mode3(x), 2)
 })
 
+test_that("calc_n_mode3 works", {
+  expect_equal(calc_n_mode4(x)$n_mode, 2)
+})
