@@ -176,7 +176,7 @@ drop_columns = function(data,
     dplyr::tibble(
       col = list(cols_max_p_mode(profile, max_p_mode)),
       action = 'drop',
-      reason = stringr::str_c('p_na > ', max_p_mode),
+      reason = stringr::str_c('p_mode > ', max_p_mode),
     ),
     dplyr::tibble(
       col = list(cols_max_card_cat(profile, max_card_cat)),
