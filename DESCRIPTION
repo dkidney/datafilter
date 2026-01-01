@@ -1,7 +1,7 @@
 Package: datafilter
 Type: Package
 Title: What the Package Does (Title Case)
-Version: 0.2.0
+Version: 0.3.0
 Authors@R: c(
     person(
       "Darren", "Kidney",
@@ -23,4 +23,6 @@ Imports:
     pillar,
     purrr,
     stats,
-    tibble
+    stringr,
+    tibble,
+    tidyr

@@ -17,7 +17,9 @@
 #' @importFrom purrr map_int
 #' @importFrom stats rnorm
 #' @importFrom stats var
+#' @importFrom stringr str_c
 #' @importFrom tibble tibble
+#' @importFrom tidyr unnest
 ## usethis namespace: end
 NULL
 
